@@ -19,7 +19,27 @@ header {
     top: 10px;
     right: 20px;
 }
+.electricos {
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height: auto;
 
+}
+.reducida {
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height:auto;   
+}
+.camion {
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height:auto;   
+}
+.buses {
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height:auto;   
+}
+.remolque{
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height:auto;   
+}
 h1 {
     margin: 0;
 }
@@ -95,4 +115,5 @@ footer {
 }
 
 /* ... (código existente) */
+
 
