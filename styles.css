@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,6 +12,7 @@ header {
     position: relative;
 }
 
+
 .logo {
     width: 80px; /* Ajusta el tamaño de tu logo según sea necesario */
     height: auto;
@@ -19,12 +20,19 @@ header {
     top: 10px;
     right: 20px;
 }
+.logo2 {
+    width: 80px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height: auto;
+}
 .electricos {
     width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
-    height: auto;
-
+    height:auto;  
 }
 .reducida {
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height:auto;   
+}
+.tarjetas{
     width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
     height:auto;   
 }
@@ -65,15 +73,27 @@ nav ul li {
 section {
     padding: 20px;
 }
+.inicios{
+    font-family: Arial Black, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.Inicio {
+    font-family: Arial Black, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
 
 .background-text {
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 1.5em;
-    opacity: 0.8;
+    opacity: 0.3;
     pointer-events: none;
 }
 
@@ -113,6 +133,69 @@ footer {
 .social-links a:hover {
     color: #333;
 }
+.green-bg{
+    font-family: Arial Black, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.social-links2 {
+    font-family: Arial Black, Arial, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.contacto2 {
+    font-family: Arial Black, Arial, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.formulario2 {
+    font-family: Arial Black, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+} 
+.encuesta1 {
+    font-family: Arial Black, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.logo2 {
+    width: 100px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height: auto;
+}
+.redes1 {
+    font-family: Arial Black, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+} 
+.logo3 {
+    width: 65px; /* Ajusta el tamaño de tu logo según sea necesario */
+    height:auto;  
+    margin-bottom: 20px;
+}
+/* ... (código anterior) ... */
+
+section#ubicacion {
+    background-color: #f2f2f2;
+}
+
+section#ubicacion address {
+    font-style: normal;
+}
+
+/* Estilo básico para un mapa (puedes ajustarlo según el servicio que elijas) */
+section#ubicacion #mapa {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    /* Puedes personalizar este fondo gris para que coincida con la estética de tu página */
+}
+
+/* ... (código posterior) ... */
+
 
 /* ... (código existente) */
 
