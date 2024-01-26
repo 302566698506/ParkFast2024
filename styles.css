@@ -116,3 +116,28 @@ footer {
 .redes-sociales a:hover {
     text-decoration: underline;
 }
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas (ej. móviles) */
+}
+/* Estilos base para todas las pantallas */
+
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas pequeñas (móviles) */
+    body {
+        font-size: 14px; /* Ajusta el tamaño del texto según sea necesario */
+    }
+
+    header {
+        padding: 0.5em;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    /* Agrega más estilos según sea necesario */
+}
